@@ -16,13 +16,19 @@ position: -128,216
 ---
 Mimushi: My name Is Mimushi! Your name. hMMM you have a beautiful hairs.
 You: Ohh Thanks!! My Name is Miki..
-//<<>> 
+<<jump Mimushi>> 
 ===
 title: Speak_M_2
 position: 175,-83
 ---
 Mimushi: Well I'm not scared of this.
 You: ohh!! You're really brave girl then.
-<<ChangeMyScene Explore_Mansion>>
-//
+You: Well i here for inspiration for my art.
+Mimushi: Ohhh great!!!
+Mimushi: This Place is very Dangerous for you Please Go to the mansion.. Its too late to be outside.
+Mimushi: Don't Worry You will be safe in The Mansion.
+You: Alright ok, I'm Going Right Now
+You: I will meet you Later. Good Night Mimushi.
+Mimushi: You too..Sweat dreams  Miki..
+<<MyScene2 SwitchTo2>>
 ===

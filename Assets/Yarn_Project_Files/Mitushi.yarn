@@ -1,0 +1,32 @@
+﻿title: Mitushi
+tags:
+---
+tags:
+position: -129,-84
+---
+Silence All over the mansion....
+
+Mitushi: Hi Miki How are you? 
+    -> You: Ohh How know My name.
+        <<jump Speak_Mi_1>>
+    ->You: Should I trust Him?? No. 
+        <<jump Speak_Mi_2>>
+=== 
+
+title: Speak_Mi_1
+position: -128,216
+---
+Mitushi:Don't Worry I will help you recover from your past.
+You: I have no idea what is real or what's not..
+Mitushi: Accept My Offer!
+    ->You: No   
+        <<jump Mitushi>>
+    ->You: Yes
+        <<MyScene4 SwitchTo3>>
+===     
+title: Speak_Mi_2
+position: 175,-83
+---
+You: I will Never Trust You:
+<<MyScene3 SwitchTo3>>
+===

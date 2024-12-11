@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Arrival_Of_Miki.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Ending_1_The_Cursed_Canvas.unity
+    guid: 176331ede5c44d24ca3ab9f6a9a68671
+  - enabled: 1
+    path: Assets/Scenes/Ending_2_The_Cursed_Canvas.unity
+    guid: 04ef3cfa613e52d42ba0b953ed72d06d
+  - enabled: 1
+    path: Assets/Scenes/Explore_Mansion.unity
+    guid: c79711a14e97bef4db0d3347f8d021b1
+  - enabled: 1
+    path: Assets/Scenes/The_Canvas_&_The_Entity.unity
+    guid: 2cc3d5cb160c3b645b4d4147a78b343a
   m_configObjects: {}
