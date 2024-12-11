@@ -1,0 +1,28 @@
+﻿title: Mimushi
+tags:
+position: -129,-84
+---
+Mimushi Sighs and Sadly looks towards to Miki eyes, but suddenly she started to smiles....
+
+Mimushi: Hmmm After A long time i saw someone in the Canterville Town. No way you decided to move here!!
+    -> You: Ohh! it's Strange that you standing in the foggy atmosphere. You go back your house.
+        <<jump Speak_M_1>>
+    ->You: Nice to Meet to you! It's A big Story, Another time, By the way What's your Name. 
+        <<jump Speak_M_2>>
+=== 
+
+title: Speak_M_1
+position: -128,216
+---
+Mimushi: My name Is Mimushi! Your name. hMMM you have a beautiful hairs.
+You: Ohh Thanks!! My Name is Miki..
+//<<>> 
+===
+title: Speak_M_2
+position: 175,-83
+---
+Mimushi: Well I'm not scared of this.
+You: ohh!! You're really brave girl then.
+<<ChangeMyScene Explore_Mansion>>
+//
+===
